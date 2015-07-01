@@ -42,7 +42,7 @@
       					<ul>
                         <!-- <li><a href="#" data-toggle="modal" data-target="#signup">Sign Up</a></li>
                         <li><a href="#" data-toggle="modal" data-target="#signin">Sign In</a></li> -->
-                        <li><a href="add.html" class="btn btn-green">List a Property</a></li>
+                        <!-- <li><a href="add.html" class="btn btn-green">List a Property</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -193,7 +193,7 @@
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="row">
-						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service-block">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 service-block">
 							<div href="#">
 								<span class="fa fa-search s-icon"></span>
 								<div class="s-content">
@@ -202,7 +202,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service-block">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 service-block">
 							<div href="#">
 								<span class="fa fa-times s-icon"></span>
 								<div class="s-content">
@@ -210,8 +210,13 @@
 									
 								</div>
 							</div>
-						</div>
-						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service-block">
+						</div>												
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="row">
+
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 service-block">
 							<div href="#">
 								<span class="fa fa-angle-double-down s-icon"></span>
 								<div class="s-content">
@@ -219,44 +224,24 @@
 									
 								</div>
 							</div>
-						</div>						
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<div class="row">
-						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service-block">
+						</div>
+
+
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 service-block">
 							<div href="#">
 								<span class="fa fa-star-o s-icon"></span>
 								<div class="s-content">
-									<h2 class="s-main osLight">Personalized Home Recommendations</h2>
+									<h2 class="s-main osLight">Luxurious Homes</h2>
 									
 								</div>
 							</div>
-						</div>
-						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service-block">
-							<div href="#">
-								<span class="fa fa-user-plus s-icon"></span>
-								<div class="s-content">
-									<h2 class="s-main osLight">Sharing Homes</h2>
-									
-								</div>
-							</div>
-						</div>
-						<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service-block">
-							<div href="#">
-								<span class="fa fa-phone s-icon"></span>
-								<div class="s-content">
-									<h2 class="s-main osLight">Free Expert Advice</h2>
-									
-								</div>
-							</div>
-						</div>						
+						</div>											
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="row">
 						<div class="service-btn">
-							<a href="#calcform" class="btn btn-red">Give us your requirement</a>
+							<a href="#calcform" class="btn btn-o btn-white">Give us your requirement</a>
 						</div>
 					</div>
 				</div>
@@ -343,7 +328,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 					<div class="row">
 						<div class="service-btn">
-							<a href="#calcform" class="btn btn-red">Calculate your Profit</a>
+							<a href="#calcform" class="btn btn-o btn-white">Calculate your Profit</a>
 						</div>
 					</div>
 				</div>
@@ -529,30 +514,33 @@
 				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
 					<div class="osLight footer-header">Company</div>
 					<ul class="footer-nav pb20">
-						<li><a href="#">About</a></li>
-						<li><a href="#">Jobs</a></li>
+						<li><a href="#">Home</a></li>
+						<!-- <li><a href="#">Jobs</a></li>
 						<li><a href="#">Press</a></li>
 						<li><a href="blog.html">Blog</a></li>
 						<li><a href="#">Help</a></li>
 						<li><a href="#">Policies</a></li>
-						<li><a href="#">Terms & Privacy</a></li>
+						<li><a href="#">Terms & Privacy</a></li> -->
 					</ul>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
-					<div class="osLight footer-header">Discover</div>
-					<ul class="footer-nav pb20">
-						<li><a href="#">Become a Member</a></li>
-						<li><a href="#">Properties List</a></li>
-						<li><a href="#">Sign In</a></li>
-						<li><a href="#">Widgets</a></li>
-						<li><a href="#">Components</a></li>
-						<li><a href="#">Tables</a></li>
-						<li><a href="#">Lists</a></li>
-					</ul>
+					<div class="osLight footer-header">Get In Touch</div>
+					<!--<p>Virender Pratap Singh</p>-->
+					<p><span class="fa fa-phone"></span> +91-8285007290</p>                           
+					<div itemscope="" itemtype="https://schema.org/LocalBusiness">
+						<div itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
+							<!-- <span itemprop="name">ShareLock Homes</span>, -->
+							<span class="street-address" itemprop="streetAddress">W 5/2, DLF Phase 3, Sector 24</span>, 
+							<span class="locality" itemprop="addressLocality">Gurgaon</span>, 
+							<span class="region" itemprop="addressRegion">Haryana</span>, 
+							<span class="postal-code" itemprop="postalCode">122002</span>, 
+							<span class="country-name" itemprop="addressCountry">INDIA</span>
+						</div>
+					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-					<div class="osLight footer-header">Get in Touch</div>
-					<ul class="footer-nav pb20">
+					<div class="osLight footer-header">About Us</div>
+					<!-- <ul class="footer-nav pb20">
 						<li class="footer-phone">
 							<p>Virender Pratap Singh</p>
 							<p><span class="fa fa-phone"></span> +91-8285007290</p>
@@ -563,16 +551,25 @@
 							<p>United States</p>
 						</li>
 						<li><a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-facebook"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-twitter"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-google-plus"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-linkedin"></span></a> </li>
-					</ul>
+					</ul> -->
+					<div itemscope="" itemtype="https://schema.org/LocalBusiness"><p itemprop="description">Welcome to ShareLock Homes. Founded by IIT Roorkee and Stanford graduates, we strive to change the way you search for shared homes. We aim to make the shared housing affordable and hassle-free.</p></div>
+
+					<a href="https://www.facebook.com/hello.sharelockhomes" class="btn btn-sm btn-icon btn-round btn-o btn-white" target="_blank"><span class="fa fa-facebook"></span></a> <a href="https://twitter.com/sharelock_homes" class="btn btn-sm btn-icon btn-round btn-o btn-white" target="_blank"><span class="fa fa-twitter"></span></a>
+					<a href="https://plus.google.com/b/118138586315576042048/" class="btn btn-sm btn-icon btn-round btn-o btn-white" target="_blank"><span class="fa fa-google-plus"></span></a> <!--<a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-linkedin"></span></a> -->
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 					<div class="osLight footer-header">Subscribe to Our Newsletter</div>
-					<form role="form">
+					<form role="form" action="http://sharelockhomes.us11.list-manage.com/subscribe/post">
+						<input type="hidden" name="u" value="f1e192c833afd7df322d6400d">
+						<input type="hidden" name="id" value="6539368fd3">
+						<input type="hidden" name="orig-lang" value="1">
+
 						<div class="form-group">
-							<input type="email" class="form-control" placeholder="Email Address">
+							<input type="email" class="form-control" placeholder="Email Address" name="MERGE0" id="MERGE0" size="25">
 						</div>
+						<div class="hidden-from-view"><input type="text" name="b_f1e192c833afd7df322d6400d_6539368fd3" tabindex="-1" value=""></div>
 						<div class="form-group">
-							<a href="#" class="btn btn-green btn-block">Subscribe</a>
+							<input type="submit" class="btn btn-blue btn-block" name="submit" value="Subscribe">
 						</div>
 					</form>
 				</div>
@@ -773,18 +770,18 @@
 		}
 	}
 	var slider = new Slider("#existing-monthly-slider", {tooltip: 'always'})
-				.on('slide', function(){
-			        var newVal = slider.getValue();
-					$('#existing-annual').val( newVal * $('#existing-months').val());
-					$("#existing-monthly-display-value").val(newVal);
-					$("#existing-monthly-display-value2").val(newVal);
-					$("#existing-monthly-display-value3").val(newVal);
-					recalculate();
-				});
-    var slider1 = new Slider("#per-month-rent-slider", {tooltip: 'always'})
-    			.on('slide', function(){
-					recalculate();
-				});
+	.on('slide', function(){
+		var newVal = slider.getValue();
+		$('#existing-annual').val( newVal * $('#existing-months').val());
+		$("#existing-monthly-display-value").val(newVal);
+		$("#existing-monthly-display-value2").val(newVal);
+		$("#existing-monthly-display-value3").val(newVal);
+		recalculate();
+	});
+	var slider1 = new Slider("#per-month-rent-slider", {tooltip: 'always'})
+	.on('slide', function(){
+		recalculate();
+	});
 	$(window).load(function(){
 		var newVal = slider.getValue();
 		$('#existing-annual').val( newVal * $('#existing-months').val());
@@ -798,34 +795,34 @@
 		$('#person-per-room').on('change', function () { recalculate()});
 		$('#furnishing-details').on('change', function () { 
 			if($('#furnishing-details').val() == "ShareLock"){
-		 		$('#show-furnishing-cut').show();
-		 		$('#furnishing-cost').val(8000);
-		 		$('#share-lock-furnishing-cut').val($('#furnishing-cost').val())
-		    }
-		    else {
-		    	$('#show-furnishing-cut').hide();
-		    	$('#furnishing-cost').val(0); 
-		    	$('#share-lock-furnishing-cut').val($('#furnishing-cost').val())
-		    }	 	
+				$('#show-furnishing-cut').show();
+				$('#furnishing-cost').val(8000);
+				$('#share-lock-furnishing-cut').val($('#furnishing-cost').val())
+			}
+			else {
+				$('#show-furnishing-cut').hide();
+				$('#furnishing-cost').val(0); 
+				$('#share-lock-furnishing-cut').val($('#furnishing-cost').val())
+			}	 	
 		});
 		$('#new-months').on('change', function () { recalculate()}); 
-		 
+
 	}); 
 
-	function recalculate(a, b){
-		$('#total-tenants').val($('#person-per-room').val() * $('#bhk-type').val());
-	    var val = 10000;
-		val = slider1.getValue();
-	    var rent = $('#person-per-room').val() * $('#bhk-type').val() * val;
-	    var commission = Math.ceil(rent * 0.125);
-		$('#new-monthly').val(rent);
-		$('#share-lock-cut').val(commission);
-		var furnishingcost = $('#furnishing-cost').val();
-		$('#rent-to-owner').val(rent - commission - furnishingcost);
-		$('#rent-increase').val($('#rent-to-owner').val() - slider.getValue());	
-		$('#new-annual').val($('#rent-to-owner').val() * $('#new-months').val());
-		$('#improve-annual').val($('#new-annual').val() - $('#existing-annual').val());
-	}
+function recalculate(a, b){
+	$('#total-tenants').val($('#person-per-room').val() * $('#bhk-type').val());
+	var val = 10000;
+	val = slider1.getValue();
+	var rent = $('#person-per-room').val() * $('#bhk-type').val() * val;
+	var commission = Math.ceil(rent * 0.125);
+	$('#new-monthly').val(rent);
+	$('#share-lock-cut').val(commission);
+	var furnishingcost = $('#furnishing-cost').val();
+	$('#rent-to-owner').val(rent - commission - furnishingcost);
+	$('#rent-increase').val($('#rent-to-owner').val() - slider.getValue());	
+	$('#new-annual').val($('#rent-to-owner').val() * $('#new-months').val());
+	$('#improve-annual').val($('#new-annual').val() - $('#existing-annual').val());
+}
 </script>
 </body>
 
