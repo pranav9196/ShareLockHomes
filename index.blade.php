@@ -38,13 +38,27 @@
       			<div class="home-header">
       				<div class="home-logo osLight"><span class="fa fa-home"></span> ShareLock Homes </div>
       				<a href="#" class="home-navHandler visible-xs"><span class="fa fa-bars"></span></a>
-      				<div class="home-nav">
+      				<div class="home-nav ownerMenu">
       					<ul>
-                        <!-- <li><a href="#" data-toggle="modal" data-target="#signup">Sign Up</a></li>
-                        <li><a href="#" data-toggle="modal" data-target="#signin">Sign In</a></li> -->
-                        <!-- <li><a href="add.html" class="btn btn-green">List a Property</a></li> -->
+                        <!-- <li><a href="#" data-toggle="modal" data-target="#signup">Sign Up</a></li> -->
+                        <li><a href="#inviteform" class="btn">Invite a friend</a></li>
+                        <li><a href="#listingform" class="btn">List Your Home</a></li>
+                        <li><a href="#calcform" class="btn">Calculate Your Rent</a></li>
                     </ul>
                 </div>
+
+
+                <div class="home-nav seekerMenu">
+      					<ul>
+                        <!-- <li><a href="#" data-toggle="modal" data-target="#signup">Sign Up</a></li> -->
+                        <li><a href="#inviteform" class="btn">Invite a friend</a></li>
+                        <li><a href="#convertform" class="btn">Prebook Your Home</a></li>
+                    </ul>
+                </div>
+
+
+
+
             </div>
             <div class="home-caption">
             	<div class="home-title">ShareLock Homes</div>
